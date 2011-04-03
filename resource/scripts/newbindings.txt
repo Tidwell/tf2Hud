@@ -1,0 +1,12 @@
+//
+// This file contains a command and an "ideal" key.  At startup, if a key is not bound for the
+// given command, the availability of the ideal key is checked.  If it is available, the key
+// is bound - otherwise the game will go through all keys until it finds one that is available
+// or it fails.
+//
+"scripts/newbindings.txt"
+{
+	"use_action_slot_item"				"h"
+	"cl_trigger_first_notification"		"j"
+	"cl_decline_first_notification"		"k"
+}

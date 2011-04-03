@@ -1,0 +1,10 @@
+"chapters"
+{
+	1	"title_blue"
+	2	"title_red"
+}
+"BackgroundMaps"
+{
+	1	"background01"
+	2	"background01"
+}

@@ -1,0 +1,150 @@
+
+
+"Halloween.Outside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"		".2, .3"
+		"pitch"		"50"
+		"wave"		"ambient/desert_life.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/hallowloop.wav"
+	}
+	
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".7, .9"
+		"pitch"		"75, 100"
+		"rndwave"
+		{
+			"wave"		"ambient/owl1.wav"
+			"wave"		"ambient/owl2.wav"
+			"wave"		"ambient/owl3.wav"
+			"wave"		"ambient/wolf01.wav"
+			"wave"		"ambient/wolf02.wav"
+			"wave"		"ambient/wolf03.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"20, 40"
+		"volume"	".3, .6"
+		"pitch"		"65, 75"
+		"rndwave"
+		{
+			"wave"		"ambient/crow1.wav"
+			"wave"		"ambient/crow2.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient/wind_gust1.wav"
+			"wave"		"ambient/wind_gust2.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".1, .2"
+		"pitch"		"100, 150"
+		"rndwave"
+		{
+			"wave"		"ambient/hallow04.wav"
+			"wave"		"ambient/hallow05.wav"
+			"wave"		"ambient/hallow06.wav"
+			"wave"		"ambient/hallow07.wav"
+			"wave"		"ambient/hallow08.wav"					
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 8"
+		"volume"	".3, .666"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient/hallow01.wav"
+			"wave"		"ambient/hallow02.wav"
+			"wave"		"ambient/hallow03.wav"			
+		}
+	}
+}
+
+"Halloween.Inside"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"75"
+		"wave"		"ambient/underground.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+	"playrandom"
+	{
+		"time"		"10, 30"
+		"volume"	".666, .9"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient/wind_gust1.wav"
+			"wave"		"ambient/wind_gust2.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"5, 9"
+		"volume"	".666, 1.0"
+		"pitch"		"90, 110"
+		"rndwave"
+		{
+			"wave"		"ambient/hallow01.wav"
+			"wave"		"ambient/hallow02.wav"
+			"wave"		"ambient/hallow03.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15, 30"
+		"volume"	".3, .5"
+		"pitch"		"60, 80"
+		"rndwave"
+		{
+			"wave"		"ambient/creak01.wav"
+			"wave"		"ambient/creak02.wav"
+			"wave"		"ambient/creak03.wav"			
+		}
+	}
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	".2, .4"
+		"pitch"		"50, 75"
+		"rndwave"
+		{
+			"wave"		"ambient/hallow04.wav"
+			"wave"		"ambient/hallow05.wav"
+			"wave"		"ambient/hallow06.wav"
+			"wave"		"ambient/hallow07.wav"
+			"wave"		"ambient/hallow08.wav"					
+		}
+	}
+}
